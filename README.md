@@ -8,3 +8,8 @@ Execute the below command replacing the parameters as appropriate. The parameter
 
     python ./migrate.py --source-database=SOURCE_DB --target-database=TARGET_DB --source-hostname=MYINSTANCE.odoo.com --target-hostname=MYINSTANCE.COM --source-username=USERNAME --source-password=PASSWORD --target-username=USERNAME --target-password=PASSWORD --source-saas true --target-product-model=product.template
 
+### Notes:
+If the --source-saas and --target-saas parameters are set to true, the protocol and port will be set automatically to work with the Odoo saas service.
+
+Run the script with the --help parameter for more parameter information.
+
